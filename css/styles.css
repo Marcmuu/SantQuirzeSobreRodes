@@ -59,6 +59,15 @@ Colors:
   background-color: #999999;
 }
 
+.customLogos{
+  filter: brightness(0) invert(1);
+  width: 80%;
+  aspect-ratio: 16/9;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
+
+
 /**************************/
 /*     General Styles     */
 /**************************/
@@ -855,7 +864,6 @@ hr.hr-heading {
 .basic-5 .vertical-decoration {
   display: none;
 }
-
 
 
 .centrarFoto{
@@ -2232,7 +2240,7 @@ p:first-of-type {
 
   .basic-5 .text-container {
     margin-top: 2.375rem;
-    margin-left: 3.5rem;
+    margin-right: 3.5rem;
   }
 
   .basic-5 .vertical-decoration {
