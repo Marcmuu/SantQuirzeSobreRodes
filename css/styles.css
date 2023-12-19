@@ -1739,6 +1739,13 @@ p:first-of-type {
 /*************************/
 /*     Media Queries     */
 /*************************/
+@media (min-width: 400px) {
+  .basic-2 .container .row{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 /* Min-width 400px */
 @media (max-width: 400px) {
   .header {
@@ -1753,6 +1760,10 @@ p:first-of-type {
   }
   .slider-1 {
     padding: 24px 0px;
+  }
+  .basic-2 .container .row{
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 /* end of min-width 400px */
@@ -1777,6 +1788,10 @@ p:first-of-type {
     padding: 1.75rem 2rem 0.875rem 2rem;
   }
   /* end of extra pages */
+  .basic-2 .container .row{
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 /* end of min-width 768px */
 
@@ -1799,6 +1814,7 @@ p:first-of-type {
     margin-right: auto;
     margin-left: auto;
   }
+
 
   /* Stops body and navbar shift on modal open */
   body.modal-open {
@@ -1937,6 +1953,10 @@ p:first-of-type {
     margin-bottom: 0;
   }
   /* end of details 2 */
+  .basic-2 .container .row{
+    display: flex;
+    flex-direction: row;
+  }
 
   /* Details 3 */
   .basic-5 .image-container {
